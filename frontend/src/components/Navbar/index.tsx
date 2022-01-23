@@ -11,7 +11,7 @@ function NavBar() {
                     <a href="https://github.com/fopnet/spring-react">
                         <div className="dsmovie-nav-contact">
                             <GitHubIcon />
-                            <p>/devsuperior</p>
+                            <p>/fopnet</p>
                         </div>
                     </a>
                 </div>
