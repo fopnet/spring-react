@@ -6,10 +6,14 @@ import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Embeddable
+@AllArgsConstructor
+@NoArgsConstructor
 public class ScorePk implements Serializable{
     
     @ManyToOne

@@ -21,9 +21,4 @@ public class MovieDTO implements Serializable {
     @Getter(AccessLevel.PACKAGE)
     @Setter(AccessLevel.PRIVATE)
     private Movie movie = new Movie();
-    // private Long id;
-    // private String title;
-    // private Double score;
-    // private Integer count;
-    // private String image;
 }
