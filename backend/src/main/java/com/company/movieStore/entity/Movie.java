@@ -12,7 +12,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 @Data
-@EqualsAndHashCode(of={"id"})
+@EqualsAndHashCode(of = { "id" })
 @Entity
 @Table(name="tb_movie")
 public class Movie implements Serializable {
