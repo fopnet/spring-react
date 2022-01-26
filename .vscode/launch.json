@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MovieStoreApplication<movieStore>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.company.movieStore.MovieStoreApplication",
+            "projectName": "movieStore",
+            "args": ""
+        }
+    ]
+}
