@@ -1,0 +1,17 @@
+1. create account in https://www.heroku.com/
+2. Criar app no Heroku
+3. Provisionar banco Heroku Postgres 
+4. Definir variável APP_PROFILE=prod
+5. Conectar ao banco via pgAdmin
+6. Criar seed do banco -> server no pgAdmin
+6. Lembrar de colocar DB Restriction na aba Advanced o nome do banco
+7. Instalar o heroku cli -> https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+7.1 > brew tap heroku/brew && brew install heroku
+8. Subir o projecto para o heroku
+heroku -v
+heroku login
+heroku git:remote -a app-movie-store
+git remote -v
+-- ao realizar o push, precisa definir a subpasta backend no comando abaixo
+OBS: precisa estar com o java11, na pasta spring-react e com heroku cli instalado. 
+git subtree push --prefix backend heroku main
