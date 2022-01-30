@@ -1,0 +1,9 @@
+-- criando rede
+> docker network create spring-react
+
+-- baixando versão 12 da imagem postgres no hub.docker.com
+
+> docker pull postgres:12-alpine
+
+-- rodando a imagem
+> docker run -p 5432:5432 --name db-movie-store --network spring-react -e POSTGRES_PASSWORD=1234567 -e POSTGRES_DB=db-movie-store postgres:12-alpine
