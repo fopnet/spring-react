@@ -1,0 +1,11 @@
+1. criando conta em https://www.netlify.com/
+2. Após escolher o repositorio do git, configurar o form conforme abaixo 
+Base directory: frontend
+Build command: yarn build
+Publish directory: frontend/build
+
+3. Na parte Site Setting -> Change site name
+
+4. Configurar arquivo "redirect" em /public com o conteúdo abaixo:
+
+/* /index.html 200
