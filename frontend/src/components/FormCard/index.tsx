@@ -63,13 +63,15 @@ function FormCard({ movieId }: Props) {
                             <option>5</option>
                         </select>
                     </div>
-                    <div className="dsmovie-form-btn-container">
-                        <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
+                    <div className="dsmovie-button-bar">
+                        <div className="dsmovie-form-btn-container">
+                            <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
+                        </div>
+                        <Link to="/" >
+                            <button className="btn btn-primary dsmovie-btn">Cancelar</button>
+                        </Link>
                     </div>
                 </form >
-                <Link to="/" >
-                    <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
-                </Link>
             </div >
         </div >
     );
