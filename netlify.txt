@@ -9,3 +9,4 @@ Publish directory: frontend/build
 4. Configurar arquivo "redirect" em /public com o conteúdo abaixo:
 
 /* /index.html 200
+
