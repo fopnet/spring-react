@@ -6,6 +6,11 @@ export type Movie = {
     image: string;
 }
 
+export type RegistrationScore = {
+    score: number,
+    email: string
+}
+
 export type MoviePage = {
     content: Movie[];
     last: boolean;

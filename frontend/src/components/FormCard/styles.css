@@ -10,11 +10,15 @@
 
 .dsmovie-form-group {
     margin-bottom: 20px;
+    font-size: 12px;
 }
 
 .dsmovie-form-group label {
-    font-size: 12px;
     color: #aaa;
+}
+.dsmovie-form-group .error {
+    color: red;
+    font-weight: bold;
 }
 
 .dsmovie-form-btn-container {
@@ -61,3 +65,4 @@
     justify-content: space-between;
     align-items: center;
 }
+ 
