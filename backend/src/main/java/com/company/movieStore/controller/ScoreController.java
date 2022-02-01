@@ -19,7 +19,7 @@ public class ScoreController {
         this.scoreService = scoreService;
     }
 
-    @PutMapping("/")
+    @PutMapping
     public ResponseEntity<MovieDTO> save(@RequestBody ScoreDTO dto) {
         return ResponseEntity.ok(this.scoreService.save(dto));
     }
