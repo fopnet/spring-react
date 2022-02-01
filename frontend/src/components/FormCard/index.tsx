@@ -35,7 +35,7 @@ function FormCard({ movieId }: Props) {
         const config: AxiosRequestConfig = {
             baseURL: BASE_URL,
             method: 'PUT',
-            url: '/scores/save',
+            url: '/scores',
             data: formData
         }
 
