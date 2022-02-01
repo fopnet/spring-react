@@ -17,8 +17,8 @@ Referencias:
  - 4.1 através de perfil prodFirebase por exempmlo
  - 4.2 através de injeção de dependência com um Abstract Factory 
  - 4.3 Usando dois repositórios ao mesmo tempo 
- - 4.3.1 https://www.youtube.com/watch?v=MZF7IWRfKsA
- - 4.3.2 https://www.youtube.com/watch?v=iDogrHEo4x0
+   - 4.3.1 https://www.youtube.com/watch?v=MZF7IWRfKsA
+   - 4.3.2 https://www.youtube.com/watch?v=iDogrHEo4x0
 
 5. Verificar uma forma de colocar os dados de conexão do Firebase no arquivo de propriedades
  - https://www.youtube.com/watch?v=uC2wvK79mBs
